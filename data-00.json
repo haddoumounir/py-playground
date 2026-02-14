@@ -1,0 +1,47 @@
+[
+    {
+        "employee_id": "a1f3b2c4-91d4-4f2c-8a55-123456789abc",
+        "full_name": "Samantha Green",
+        "hire_date": "2020-03-15",
+        "salary": 72000.50,
+        "position": "Software Engineer",
+        "team": "Platform",
+        "is_active": true
+    },
+    {
+        "employee_id": "b2e4d6f8-22a1-4c3d-9b77-abcdef123456",
+        "full_name": "Daniel Brooks",
+        "hire_date": "2019-07-01",
+        "salary": 68000,
+        "position": "Data Analyst",
+        "team": null,
+        "is_active": false
+    },
+    {
+        "employee_id": "c3d5e7f9-33b2-4d4e-8c88-fedcba654321",
+        "full_name": "Olivia Turner",
+        "hire_date": "2021-11-20",
+        "salary": 85000.75,
+        "position": "DevOps Engineer",
+        "team": "Infrastructure",
+        "is_active": true
+    },
+    {
+        "employee_id": "d4f6a8b0-44c3-4e5f-9d99-112233445566",
+        "full_name": "Liam Carter",
+        "hire_date": "2018-05-10",
+        "salary": 95000,
+        "position": "Engineering Manager",
+        "team": "Backend",
+        "is_active": true
+    },
+    {
+        "employee_id": "e5a7c9d1-55d4-4f6a-7e00-667788990011",
+        "full_name": "Ava Mitchell",
+        "hire_date": "2022-01-05",
+        "salary": 60000,
+        "position": "QA Tester",
+        "team": "Quality Assurance",
+        "is_active": false
+    }
+]
