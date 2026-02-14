@@ -2,6 +2,13 @@ import requests
 from pydantic import BaseModel, validator
 import uuid
 from datetime import date, datetime, timedelta
+from DepartmentEnum import DepartmentEnum
+
+# Life Sciences
+# Science and Engineering
+# Life Sciences
+# Arts and Humanities
+
 
 url = (
     "https://raw.githubusercontent.com/bugbytes-io/"
@@ -19,7 +26,7 @@ class Student(BaseModel):
     date_of_birth: date
     GPA: float
     course: str | None
-    department: str
+    department: DepartmentEnum
     fees_paid: bool
 
     # !validator is deprecated ! use field_validator
