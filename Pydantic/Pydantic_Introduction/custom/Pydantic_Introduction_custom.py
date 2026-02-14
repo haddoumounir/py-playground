@@ -4,10 +4,9 @@ import uuid
 from datetime import date, datetime, timedelta
 
 url = (
-    "https://raw.githubusercontent.com/haddoumounir/"
-    "data/refs/heads/main/data/data-00.json"
+    "https://raw.githubusercontent.com/haddoumounir/py-playground/"
+    "refs/heads/main/Pydantic/Pydantic_Introduction/custom/data/data-00.json"
 )
-
 data = requests.get(url)
 data = data.json()
 
