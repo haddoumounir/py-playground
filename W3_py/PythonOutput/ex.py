@@ -5,4 +5,4 @@ Inside the editor, complete the following steps:
 
 """
 
-print("I am" ,25)
+print("I am", 25)

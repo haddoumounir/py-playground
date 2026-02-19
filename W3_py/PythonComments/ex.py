@@ -10,9 +10,9 @@ Inside the editor, complete the following steps:
 """
 
 # Write a single-line comment
-#This is a comment
+# This is a comment
 # Comment out this line so it does not run:
-#print("This should not run")
+# print("This should not run")
 
 # Add a multiline comment
 

@@ -7,7 +7,6 @@ Inside the editor, complete the following steps:
     Use the type() function to print the type of x
 """
 
-
 x = 5
 y = "John"
 print(type(x))
