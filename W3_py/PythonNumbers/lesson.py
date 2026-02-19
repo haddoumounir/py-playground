@@ -1,12 +1,8 @@
-
 #  * in python there is 3 types of variables  int, float, complex
 
-from traceback import print_tb
-
-
-a = 1 # * int
-b = 1.99 # * float 
-c = 2j # * complex are waiting with j as imagination part 
+a = 1  # * int
+b = 1.99  # * float
+c = 2j  # * complex are waiting with j as imagination part
 
 print(f"type of a:{type(a)} and it value is {a}")
 print(f"type of b:{type(b)} and it value is {b}")

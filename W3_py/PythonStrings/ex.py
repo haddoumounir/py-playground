@@ -9,9 +9,6 @@ Inside the editor, complete the following steps:
     Use an f-string to print "I love Python" using the name variable
 """
 
-
-
-
 txt = "Hello, World!"
 print(txt[2:5])
 print(txt.upper())

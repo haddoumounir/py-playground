@@ -1,9 +1,7 @@
-
-
 print("hello")
-print('hello')
+print("hello")
 
-a = 'hello'
+a = "hello"
 print(a)
 
 a = "hello"
@@ -16,17 +14,17 @@ However venture pursuit he am mr cordial. Forming musical am hearing studied be 
 
 print(a)
 
-# * slicing string 
+# * slicing string
 # ! first character is index 0
 b = "Hello, World!"
 print("\n")
-print(b[0:4]+"\n")
+print(b[0:4] + "\n")
 
 
-# * from start to 
-print(b[:3]+"\n")
+# * from start to
+print(b[:3] + "\n")
 
-# * from index to the end 
+# * from index to the end
 print(b[1:] + "\n")
 
 
@@ -36,37 +34,40 @@ print(b.upper())
 # * to lower case
 print(b.lower())
 
-# * remove white spaces from the end and start 
-b = "                                   [hello]                                  "
+# * remove white spaces from the end and start
+b = "              [hello]     "
 print(b.strip())
 
-# * replace string 
+# * replace string
 b = "Hello, World"
-print(b.replace("World","How are you ?")) # ! first arg is src part and sec arg is pasted part
+print(
+    b.replace("World", "How are you ?")
+)  # ! first arg is src part and sec arg is pasted part
 
-# * split string 
+# * split string
 
-print(b.split('o')) # ! the arg i just give it to method split is the del as we have on my 42 split
+print(
+    b.split("o")
+)  # ! the arg i just give it to method split is the del as we have on my 42 split
 
-# * Concatenate string 
+# * Concatenate string
 
 
-a = 'Hello'
+a = "Hello"
 b = "my name is"
 c = "Mounir"
 
-e = a+' '+ b + " "+c
+e = a + " " + b + " " + c
 print(e)
 
 # * f strings
 
-firstName = 'Mounir'
+firstName = "Mounir"
 lastName = "haddou"
 age = 22
 allInfos = f"hello my full  name is {firstName} {lastName}, I'm {age}"
 
 print(allInfos)
 
-#* escape character
-print("this is \"double quote\"")
-
+# * escape character
+print('this is "double quote"')

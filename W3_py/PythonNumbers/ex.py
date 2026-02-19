@@ -10,7 +10,7 @@ Inside the editor, complete the following steps:
 
 x = 5
 y = 3.14
-z = 2+3j
+z = 2 + 3j
 
 print(type(x))
 print(type(y))
