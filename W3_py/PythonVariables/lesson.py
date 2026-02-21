@@ -69,9 +69,12 @@ def sayMyPrectLang(c):
 
 sayMyPrectLang(c)
 
+
 def TestingGlobalVariable():
     global myFavIDE
     myFavIDE = "VSC"
     print(myFavIDE)
+
+
 TestingGlobalVariable()
 print(myFavIDE)
